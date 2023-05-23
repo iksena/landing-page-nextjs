@@ -8,12 +8,13 @@ import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
+import contents from '../lib/contents'
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Features />
+      <Hero {...contents} />
+      <Features {...contents} />
       <Zigzag />
       <Testimonials />
       <Newsletter />

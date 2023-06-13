@@ -4,8 +4,8 @@ const contents = {
     address: "Learnotel Hotel & Convention\nJl. Cikopo Selatan No. 50 RT.001 RW. 04, Ds. Gadog\nKec. Megamendung, Kab. Bogor.\nKode Pos 16750",
     phone: "081285924033",
     email: "ptkpi@gmail.com",
-    projects: [
-        { 
+    projects: {
+        training: { 
             title: "Productivity Training",
             description: "PELATIHAN PRODUKTIVITAS (PENERAPAN ALAT/TEKNIK/METODE PENINGKATAN PRODUKTIVITAS",
             policies: [
@@ -41,15 +41,18 @@ const contents = {
                 "Six Sigma",
             ]
         },
-        {
+        certification: {
             title:"Productivity Certification",
             
         },
-        {title:"Productivity Consultant"},
-        {title:"Productivity Measurement"},
-        {title:"Productivity Research"},
-        {title:"Productivity Assistance"},
-    ],
+        consultant: {
+            title:"Konsultansi Produktivitas",
+            description:"Melayani konsultansi kepada organisasi/lembaga/instansi pemerintah atau swasta (perusahaan) serta Sumber Daya Manusia dalam peningkatan produktivitas"
+        },
+        measurement: {title:"Productivity Measurement"},
+        research: {title:"Productivity Research"},
+        assistance: {title:"Productivity Assistance"},
+    },
     vision: "Menjadi pusat pengembangan SDM dan perusahaan/organisasi/lembaga yang produktif dan berdaya saing",
     missions: [
         "Menyelenggarakan pelatihan peningkatan produktivitas.",

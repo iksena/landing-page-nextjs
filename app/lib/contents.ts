@@ -115,11 +115,11 @@ const contents = {
 
         },
         research: {
-            title: "KAJIAN PENINGKATAN PRODUKTIVITAS",
+            title: "Kajian Peningkatan Produktivitas",
             description: "Melaksanakan kajian dengan penyiapan model peningkatan produktivitas organisasi/lembaga/instansi pemerintah atau swasta (perusahaan)"
         },
         assistance: {
-            title:"PENDAMPINGAN PADA USAHA KECIL MENENGAH",
+            title:"Pendampingan pada Usaha Kecil Menengah",
             description: "Melakukan pendampingan peningkatan produtivitas melalui penerapan alat/teknik/metode peningkatan produktivitas pada Usaha Kecil Menengah.."
         },
     },
@@ -139,7 +139,8 @@ const contents = {
         "Research and development for productivity models/ penyiapan model  peningkatan produktivitas// Best Practice Benchmarking",
         "Organizing for competencys sertification /memfasilitasi sertifikasi kompetensi",
         "Produktivity Assistance for Small to Medium Enterprise /pendampingan produktivitas pada Usaha Kecil Menengah.",
-    ]
+    ],
+    address: `Jl. Cikopo Selatan No. 50 RT.001 RW. 04, Ds. Gadog\nKec. Megamendung, Kab. Bogor.\nKode Pos 16750\nHP/WA 081285924033\nEmail: ptkpi737@gmail.com`
 }
 
 export default contents;

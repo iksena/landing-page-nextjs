@@ -1,4 +1,9 @@
-export default function Features({ vision, missions }) {
+interface FeaturesProps {
+  vision: string
+  missions: string[]
+}
+
+export default function Features({ vision, missions }: FeaturesProps) {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -7,12 +12,6 @@ export default function Features({ vision, missions }) {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">{vision}</h2>
-            <ul className="text-xl text-gray-400">
-              {missions.map((mission)=>{
-                <li className="flex items-center mb-2">{mission}</li>
-              })}
-            </ul>
-            {/* <p className="text-xl text-gray-400">{missions.join("\n")}</p> */}
           </div>
 
           {/* Items */}

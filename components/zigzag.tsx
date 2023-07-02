@@ -5,6 +5,9 @@ import FeatImage02 from '@/public/images/features-03-image-02.png'
 import FeatImage03 from '@/public/images/features-03-image-03.png'
 import Kegiatan from '@/public/images/kegiatan.jpeg'
 
+interface ZigZagProps {
+  projects: any
+}
 
 const CheckIcon = () => (
   <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -12,7 +15,7 @@ const CheckIcon = () => (
   </svg>
 )
 
-export default function Zigzag({ projects }) {
+export default function Zigzag({ projects }: ZigZagProps) {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

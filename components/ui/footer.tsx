@@ -3,7 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image';
 import Logo from '@/public/images/logo.png';
 
-export default function Footer({ address }) {
+interface FooterProps {
+  address: string
+}
+
+export default function Footer({ address }: FooterProps) {
   return (
     <footer>
       <div className="py-12 md:py-16">

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'PT KPI - Konsultan Produktivitas Indonesia',
+  description: 'Website resmi Konsultan Produktivitas Indonesia',
 }
 
 import Hero from '@/components/hero'

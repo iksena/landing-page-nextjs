@@ -1,7 +1,12 @@
 import VideoThumb from '@/public/images/kegiatan.jpeg'
 import ModalVideo from '@/components/modal-video'
 
-export default function Hero({ title, subtitle }) {
+interface HeroProps {
+  title: string
+  subtitle: string
+}
+
+export default function Hero({ title, subtitle }: HeroProps) {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -28,7 +33,7 @@ export default function Hero({ title, subtitle }) {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">{subtitle}</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://api.whatsapp.com/send/?phone=6281285924033">Hubungi Kami</a>
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://api.whatsapp.com/send/?phone=6281285924033" target='_blank'>Hubungi Kami</a>
               </div>
             </div>
           </div>

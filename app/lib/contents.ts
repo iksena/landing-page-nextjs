@@ -1,7 +1,6 @@
 const contents = {
     title: "PT. KONSULTAN PRODUKTIVITAS INDONESIA",
     subtitle: "Indonesian Productivity Training and Consultancy",
-    address: "Learnotel Hotel & Convention\nJl. Cikopo Selatan No. 50 RT.001 RW. 04, Ds. Gadog\nKec. Megamendung, Kab. Bogor.\nKode Pos 16750",
     phone: "081285924033",
     email: "ptkpi@gmail.com",
     projects: {
@@ -140,7 +139,7 @@ const contents = {
         "Organizing for competencys sertification /memfasilitasi sertifikasi kompetensi",
         "Produktivity Assistance for Small to Medium Enterprise /pendampingan produktivitas pada Usaha Kecil Menengah.",
     ],
-    address: `Jl. Cikopo Selatan No. 50 RT.001 RW. 04, Ds. Gadog\nKec. Megamendung, Kab. Bogor.\nKode Pos 16750\nHP/WA 081285924033\nEmail: ptkpi737@gmail.com`
+    address: "Jl. Cikopo Selatan No. 50 RT.001 RW. 04, Ds. Gadog\nKec. Megamendung, Kab. Bogor.\nKode Pos 16750\nHP/WA 081285924033\nEmail: ptkpi737@gmail.com"
 }
 
 export default contents;

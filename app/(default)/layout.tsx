@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 
 import PageIllustration from '@/components/page-illustration'
 import Footer from '@/components/ui/footer'
+import contents from '../lib/contents'
 
 export default function DefaultLayout({
   children,
@@ -33,7 +34,7 @@ export default function DefaultLayout({
 
       </main>
 
-      <Footer />
+      <Footer {...contents} />
     </>
   )
 }

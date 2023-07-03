@@ -96,11 +96,11 @@ const contents = {
             
         },
         consultant: {
-            title:"Konsultansi Produktivitas",
-            description:"Melayani konsultansi kepada organisasi/lembaga/instansi pemerintah atau swasta (perusahaan) serta Sumber Daya Manusia dalam peningkatan produktivitas"
+            title: "Konsultansi Produktivitas",
+            description: "Melayani konsultansi kepada organisasi/lembaga/instansi pemerintah maupun swasta serta Sumber Daya Manusia dalam peningkatan produktivitas"
         },
         measurement: {
-            title:"Pengukuran Produktivitas",
+            title: "Pengukuran Produktivitas",
             items: [
                 {
                     title: "Makro",
@@ -122,14 +122,13 @@ const contents = {
             description: "Melakukan pendampingan peningkatan produtivitas melalui penerapan alat/teknik/metode peningkatan produktivitas pada Usaha Kecil Menengah.."
         },
     },
-    vision: "Menjadi pusat pengembangan SDM dan perusahaan/organisasi/lembaga yang produktif dan berdaya saing",
+    vision: "Menjadi pusat pengembangan organisasi/lembaga/instansi pemerintah maupun swasta serta Sumber Daya Manusia yang produktif, kompeten dan berdaya saing.",
     missions: [
-        "Menyelenggarakan pelatihan peningkatan produktivitas.",
-        "Melaksanakan pengukuran produktivitas sebagai dasar perencanaan peningkatan produktivitas.",
-        "Memberikan konsultansi produktivitas kepada perusahaan/organisasi/lembaga dalam peningkatan produktivitas.",
-        "Melaksanakan pendampingan kepada Usaha Kecil Menengah dalam peningkatan produktivitas.",
-        "Melaksanakan kajian produktivitas.",
-        "Memfasilitasi sertifikasi kompetensi bidang produktivitas.",
+        "Memberikan konsultansi produktivitas kepada organisasi/lembaga/instansi pemerintah maupun swasta dalam peningkatan produktivitas",
+        "Melaksanakan pengukuran produktivitas sebagai dasar perencanaan peningkatan produktivitas",
+        "Menyelenggarakan pelatihan peningkatan produktivitas dan pendukung peningkatan produktivitas",
+        "Melaksanakan pendampingan kepada Usaha Kecil Menengah dalam peningkatan produktivitas",
+        "Memfasilitasi sertifikasi kompetensi bidang peningkatan produktivitas dan pendukung peningkatan produktivitas"
     ],
     programs: [
         "Improving productivity through training/ pelatihan produktivitas",
